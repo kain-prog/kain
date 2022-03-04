@@ -116,7 +116,7 @@
 
 .home{
     display: flex;
-    background: url("/src/images/bannerEu.png") no-repeat center;
+    background: url("./src/images/bannerEu.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
