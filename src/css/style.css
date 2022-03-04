@@ -12,7 +12,9 @@
     margin: auto;
 }
 
+
 /* Menu Style */
+
 
 .navbar{
     position: fixed;
@@ -77,6 +79,7 @@
 
 
 /* Menu btn */
+
 
 .menu-btn{
     color: #fff;
@@ -161,14 +164,12 @@
     font-size: 30px
 }
 
-
 .home .home-content .text-4 sub{
     font-size: 13px;
     color: #fff;
     font-weight: 300;
     margin-left: -12px;
 }
-
 
 .home .home-content a{
     display: inline-block;
@@ -375,6 +376,7 @@ section .title::after{
 
 /* Skills */
 
+
 .skills .title:after{
     content: "What i know"
 }
@@ -492,12 +494,6 @@ section .title::after{
 .projects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-
-/* .projects .carousel .card .box a{
-    text-decoration: none;
-    text-align:  center;
-    margin: auto;
-} */
 
 .projects .carousel .card .text{
     font-size: 19px;
@@ -714,8 +710,7 @@ section .title::after{
     padding-top: 4px;
     border-top-right-radius: 80px;
     box-shadow: 10px 20px 40px black;
-    background-color: rgba(17, 17, 17, 0.941);   
-    
+    background-color: rgba(17, 17, 17, 0.941);
 }
 
 .footer .container{
@@ -762,8 +757,8 @@ section .title::after{
 }
 
 
-
 /* Responsividade */
+
 
 @media (max-width: 1300px){
 
@@ -871,7 +866,6 @@ section .title::after{
         width: 100%;
         margin-bottom: 35px;
     }
-
 }
 
 @media (max-width: 701px){
@@ -929,7 +923,6 @@ section .title::after{
     }
 }    
 
-
 @media (max-width: 402px){
 
     .home .home-content .text-2{
@@ -958,9 +951,7 @@ section .title::after{
     .home .home-content a i{
         font-size: 28px;
     }
-
 }    
-
 
 @media (max-width: 318px){
 
