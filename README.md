@@ -10,7 +10,7 @@ O projeto foi criado em:
 
 - [x] Criação do HTML
 - [x] Criação do CSS
-- [x] Criação do JavaScript
+- [x] Criação do JavaScript e Jquery
 
 Resultado: https://kain-prog.github.io/kain-dev/
 
