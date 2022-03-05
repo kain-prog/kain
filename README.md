@@ -1,5 +1,8 @@
-#kain-dev
-https://kain-prog.github.io/kain-dev/
+<sup>BR</sup> Meu site de Portfólio<br>
+<sup>US</sup> My website for Portfólio<br>
+https://kain-prog.github.io/kain/
+
+
 <img src="./src/images/portHOME.PNG" alt="portfólio"> <img src="./src/images/portABOUT.PNG" alt="portfólio">
 <img src="./src/images/portMYSERVICES.PNG" alt="portfólio"> <img src="./src/images/portMYSKILLS.PNG" alt="portfólio">
 <img src="./src/images/portMYPROJECTS.PNG" alt="portfólio"> <img src="./src/images/portCONTACT+FOOTER.PNG" alt="portfólio">
@@ -12,7 +15,7 @@ O projeto foi criado em:
 - [x] Criação do CSS
 - [x] Criação do JavaScript e Jquery
 
-Resultado: https://kain-prog.github.io/kain-dev/
+Resultado: https://kain-prog.github.io/kain/
 
 
 ## 🤝 Colaboradores
