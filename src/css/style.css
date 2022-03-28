@@ -74,11 +74,11 @@
 }
 
 .navbar.sticky .menu li a{
-    color: #111;
+    color: black;
 }
 
-.navbar.sticky .menu li a:hover {
-    color: #ffff;
+.navbar.sticky .menu li a:hover{
+    color: white;
 }
 
 /* Menu btn */
