@@ -789,7 +789,6 @@ section .title::after{
     }
 }
 
-
 @media (max-width: 947px){
     
     .menu-btn{
@@ -826,6 +825,10 @@ section .title::after{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+    
+    .navbar.sticky .menu li a{
+    color: white;
     }
 
     .home .home-content .text-2{
