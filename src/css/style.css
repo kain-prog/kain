@@ -454,7 +454,7 @@ section .title::after{
 }
 
 .skills-content .right .mysql::before{
-    width: 30%;
+    width: 60%;
 }
 
 .skills-content .right .figma::before{
