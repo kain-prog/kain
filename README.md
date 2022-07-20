@@ -1,5 +1,5 @@
 ### My Portfólio ↓
-- Github Pages: https://kain-prog.github.io/kain/
+> Github Pages: https://kain-prog.github.io/kain/
 
 
 <img src="./src/images/portHOME.PNG" alt="portfólio"> <img src="./src/images/portABOUT.PNG" alt="portfólio">
