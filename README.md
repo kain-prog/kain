@@ -1,5 +1,4 @@
-<sup>BR</sup> Meu site de Portfólio<br>
-<sup>US</sup> My website for Portfólio<br>
+## My website for Portfólio<br>
 https://kain-prog.github.io/kain/
 
 
