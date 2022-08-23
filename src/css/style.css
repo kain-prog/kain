@@ -130,7 +130,7 @@
     position: relative;
 }
 
-#bg{
+.home #bg{
     position: absolute;
     top: 0;
     left: 0;
