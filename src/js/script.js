@@ -26,14 +26,14 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing",{
-        strings: ["Front-End", "Developer", "Freelancer", "Full-Stack", "Programmer"],
+        strings: ["Front-End", "Back-End", "Full-Stack", "Freelancer", "Desenvolvedor", "&&", "Programador"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     })
 
     var typed = new Typed(".typing-2",{
-        strings: ["Front-End", "Developer", "Freelancer", "Full-Stack", "Programmer"],
+        strings: ["Front-End", "Back-End", "Full-Stack", "Freelancer", "Desenvolvedor", "&&", "Programador"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -62,3 +62,7 @@ $(document).ready(function(){
     })
 
 });
+
+
+//Canvas
+

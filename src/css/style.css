@@ -23,7 +23,7 @@
     padding: 30px 0;
     font-family: 'Orbitron';
     transition: all 0.3s ease;
-    border-bottom-left-radius: 75px;
+    border-bottom-left-radius: 28px;
 }
 
 .navbar.sticky{
@@ -127,6 +127,15 @@
     color: #fff;
     min-height: 500px;
     font-family: 'Orbitron';
+    position: relative;
+}
+
+#bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 70%;
 }
 
 .home .container{
@@ -258,7 +267,7 @@ section .title::after{
 
 
 .about .title::after{
-    content: "Who i am";
+    content: "Quem sou eu";
 }
 
 .about .about-content .left{
@@ -332,12 +341,13 @@ section .title::after{
 .services .title::after,
 .projects .title::after{
     background: #111;
-    content: "what i provide";
+    content: "O que eu faço";
 }
 
 .services .serv-content .card{
     margin-top: 35px;
     width: calc(33% - 20px);
+    height: 215px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -381,7 +391,7 @@ section .title::after{
 
 
 .skills .title:after{
-    content: "What i know"
+    content: "O que eu sei"
 }
 
 .skills .skills-content .column{
@@ -482,7 +492,7 @@ section .title::after{
 
 
 .projects .title::after{
-    content: "Who with me";
+    content: "Alguns Projetos";
 }
 
 .projects .carousel .card{
@@ -567,7 +577,7 @@ section .title::after{
 
 
 .contact .title::after{
-    content: "Get in touch";
+    content: "Entre em contato";
 }
 
 .contact .contact-content .column{
@@ -685,8 +695,10 @@ section .title::after{
 }
 
 .contact .right form .field input:focus ~ label,
-.contact .right form .field input:valid ~ label{
-    top: -21px;
+.contact .right form .field input:valid ~ label,
+.contact .right form .field textarea:focus ~ label,
+.contact .right form .field textarea:valid ~ label{
+    top: -22px;
     left: 5px;
     color: #49FA02;
     font-size: 10px;
@@ -724,7 +736,7 @@ section .title::after{
     margin-top: 100px;
     border-top: 3px solid #444;
     padding-top: 4px;
-    border-top-right-radius: 80px;
+    border-top-right-radius: 28px;
     box-shadow: 10px 20px 40px black;
     background-color: rgba(17, 17, 17, 0.941);
 }
@@ -877,6 +889,7 @@ section .title::after{
 
     .services .serv-content .card{
         width: calc(50% - 10px);
+        height: 225px;
         margin-bottom: 20px;
     }
 
