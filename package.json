@@ -1,0 +1,24 @@
+{
+  "name": "kain",
+  "version": "1.0.0",
+  "description": "Projeto de apresentação [Portfólio]",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kain-prog/kain.git"
+  },
+  "author": "Matheus Santos - [kain-prog]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kain-prog/kain/issues"
+  },
+  "homepage": "https://github.com/kain-prog/kain#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
