@@ -18,7 +18,9 @@
   "homepage": "https://github.com/kain-prog/kain#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
   }
 }
