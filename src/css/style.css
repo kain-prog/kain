@@ -153,7 +153,7 @@
 }
 
 .home .container{
-    margin: auto 0 0 40px;
+    margin: auto auto 0 0;
 }
 
 .home .home-content .text-1{
@@ -198,7 +198,7 @@
 }
 
 .home .btn-cv{
-    margin: 0 0 80px 80px;
+    margin: 15px 0 80px 80px;
     width: 380px;
     z-index: 5;
 }
@@ -209,7 +209,6 @@
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
-    margin-top: 20px;
     border-radius: 6px;
     border: 2px solid #49FA02;
     transition: all 0.5s ease;
