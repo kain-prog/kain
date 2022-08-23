@@ -122,6 +122,7 @@
 
 .home{
     display: flex;
+    flex-direction: column;
     background: linear-gradient(60deg, rgba(0, 0, 0, 0.987), rgba(0, 0, 0, 0.576)), url("../images/banner-texture.png") no-repeat center;
     height: 100vh;
     color: #fff;
@@ -152,8 +153,7 @@
 }
 
 .home .container{
-    margin: auto 0 auto 40px;
-    z-index: 3;
+    margin: auto 0 0 40px;
 }
 
 .home .home-content .text-1{
@@ -197,7 +197,13 @@
     margin-left: -12px;
 }
 
-.home .home-content a{
+.home .btn-cv{
+    margin: 0 0 80px 80px;
+    width: 380px;
+    z-index: 5;
+}
+
+.home .btn-cv a{
     display: inline-block;
     background: #49FA02;
     color: #fff;
@@ -211,12 +217,12 @@
     font-weight: 700;
 }
 
-.home .home-content a:hover{
+.home .btn-cv a:hover{
     color: #49FA02;
     background: none;
 }
 
-.home .home-content a i{
+.home .btn-cv a i{
     font-size: 35px;
     margin-left: 15px;
     font-weight: 550;
