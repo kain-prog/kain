@@ -136,10 +136,12 @@
     left: 0;
     bottom: 0;
     width: 70%;
+    z-index: 1;
 }
 
 .home .container{
     margin: auto 0 auto 40px;
+    z-index: 2;
 }
 
 .home .home-content .text-1{
