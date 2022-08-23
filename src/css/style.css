@@ -122,7 +122,7 @@
 
 .home{
     display: flex;
-    background: url("../images/bannerEu.png") no-repeat center;
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.987), rgba(0, 0, 0, 0.576)), url("../images/banner-texture.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -130,18 +130,30 @@
     position: relative;
 }
 
+.home #person{
+    background: url(../images/matheus-side.png) no-repeat right;
+    background-size: contain;
+    position: absolute;
+    width: 375px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    filter: drop-shadow(0px 0px 0px 15px green);
+}
+
 .home #bg{
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 70%;
+    width: 100%;
     z-index: 1;
 }
 
 .home .container{
     margin: auto 0 auto 40px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .home .home-content .text-1{
