@@ -198,13 +198,14 @@
 }
 
 .home .btn-cv{
-    margin: 15px 0 80px 80px;
-    width: 380px;
+    margin: 15px 0 auto 0;
+    max-width: 600px;
     z-index: 5;
 }
 
 .home .btn-cv a{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     background: #49FA02;
     color: #fff;
     font-size: 25px;
@@ -214,6 +215,7 @@
     transition: all 0.5s ease;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.66);
     font-weight: 700;
+    max-width: 375px;
 }
 
 .home .btn-cv a:hover{
@@ -225,6 +227,7 @@
     font-size: 35px;
     margin-left: 15px;
     font-weight: 550;
+    text-align: right;
 }
 
 
@@ -883,9 +886,14 @@ section .title::after{
         font-size: 25px;
     }
 
-    .home .home-content a{
+    .home .btn-cv a{
         font-size: 23px;
         padding:  10px 30px;
+        max-width: 370px;
+    }
+
+    .home .btn-cv a i{
+        margin-left: 40px;
     }
 
     .container{
@@ -943,9 +951,10 @@ section .title::after{
         margin: 0px 0;
     }
 
-    .home .home-content a{
+    .home .btn-cv a{
         font-size: 23px;
         padding:  10px 30px;
+        max-width: 364;
     }
 
     .services .serv-content .card{
@@ -972,6 +981,12 @@ section .title::after{
         font-size: 12px;
         margin-left: -4px;
     }
+
+    .home .btn-cv a{
+        font-size: 19px;
+        padding:  10px 25px;
+        max-width: 325px;
+    }
 }    
 
 @media (max-width: 402px){
@@ -994,24 +1009,19 @@ section .title::after{
         margin-left: -3px;
     }
 
-    .home .home-content a{
-        font-size: 19px;
-        padding:  10px 25px;
-    }
-
-    .home .home-content a i{
+    .home .btn-cv a i{
         font-size: 28px;
     }
 }    
 
 @media (max-width: 318px){
 
-    .home .home-content a{
+    .home .btn-cv a{
         font-size: 12px;
         padding:  10px 25px;
     }
 
-    .home .home-content a i{
+    .home .btn-cv a i{
         font-size: 20px;
     }
 }
