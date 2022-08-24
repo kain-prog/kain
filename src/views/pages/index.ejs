@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/kain-icon.PNG">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/kain-icon.PNG">
     <title>Kain-Dev</title>
 </head>
 <body>
@@ -53,7 +53,7 @@
 
         </div>
         <div class="btn-cv container">
-            <a href="https://wa.me/5521967605345">Entre em contato
+            <a target="_blank" href="https://wa.me/5521967605345">Entre em contato
                 <i class="fab fa-whatsapp"></i>
             </a>
         </div>
@@ -366,28 +366,42 @@
                 </div>
                 <div class="column right">
                     <div class="text">Me envie uma Mensagem</div>
-                    <form action="#">
+                    <form action="/" method="post">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" required>
+                                <input type="text" name="nome" required>
                                 <label>Nome</label>
                             </div>
                             <div class="field email">
-                                <input type="email" required>
+                                <input type="email" name="email" required>
                                 <label>E-mail</label>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" required>
+                            <input type="text" name="assunto" required>
                             <label>Assunto</label>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" required></textarea>
+                            <textarea cols="30" rows="10" name="mensagem" required></textarea>
                             <label>Digite a sua mensagem</label>
                         </div>
-                        <div class="button">
-                            <button type="submit">Send</button>
-                        </div>                            
+                        <div class="d-flex">
+                            <div class="button">
+                                <button type="submit">Send</button>
+                            </div>
+
+                            <% if(message != '') { %>
+                            
+                                <div class="message message-<%= type %>">
+                                    <%= message %>
+                                </div>
+    
+                            <% } %>
+
+                        </div>
+
+                        
+
                     </form>
                 </div>
             </div>
@@ -413,7 +427,10 @@
             </div>
         </div>
     </footer>
-       
+
+
+
+
     <script src="js/script.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/customParticles.js"></script>

@@ -1,28 +1,22 @@
 require('dotenv').config();
 const express = require('express');
-const mongoose = require('mongoose');
-const route = require('./route');
+const route = require('./src/routes/route');
 const path = require('path');
 const cors = require('cors');
+const connectDB = require('./src/database/db');
 
 const server = express();
 
-// MongoDB
-
-mongoose.connect(process.env.MONGO_CONNECTION_URL, (error) => {
-    if(error)
-        console.log(error)
-    else
-        console.log('Banco conectado...')
-})
+//Connection MongoDB
+connectDB();
 
 server.use(cors());
 server.use(express.json());
-
+server.use(express.urlencoded());
 
 // Template EJS
 server.set('view engine', 'ejs');
-server.set('views', path.join(__dirname, 'views'));
+server.set('views', path.join(__dirname, 'src/views'));
 
 // Statics files
 server.use(express.static('src/public'));

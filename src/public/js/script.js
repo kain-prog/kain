@@ -62,3 +62,9 @@ $(document).ready(function(){
     })
 
 });
+
+const message = document.querySelector('.message');
+
+setTimeout(() => {
+    message.style.display = 'none'
+}, 8000)
