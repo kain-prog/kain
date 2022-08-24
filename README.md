@@ -1,21 +1,32 @@
 ### My Portfólio ↓
-> Github Pages: https://kain-prog.github.io/kain/
+> Link on air: https://kain-portfolio.herokuapp.com/
 
 
-<img src="./src/images/portHOME.PNG" alt="portfólio"> <img src="./src/images/portABOUT.PNG" alt="portfólio">
-<img src="./src/images/portMYSERVICES.PNG" alt="portfólio"> <img src="./src/images/portMYSKILLS.PNG" alt="portfólio">
-<img src="./src/images/portMYPROJECTS.PNG" alt="portfólio"> <img src="./src/images/portCONTACT+FOOTER.PNG" alt="portfólio">
+<img src="./src/public/images/portHOME.PNG" alt="portfólio"> <img src="./src/public/images/portABOUT.PNG" alt="portfólio">
+<img src="./src/public/images/portMYSERVICES.PNG" alt="portfólio"> <img src="./src/public/images/portMYSKILLS.PNG" alt="portfólio">
+<img src="./src/public/images/portMYPROJECTS.PNG" alt="portfólio"> <img src="./src/public/images/portCONTACT+FOOTER.PNG" alt="portfólio">
 
 > Resultado do Portifólio finalizado.
 
-O projeto foi criado em:
+## O projeto consiste em:
 
-- [x] Criação do HTML
-- [x] Criação do CSS
-- [x] Criação do JavaScript e Jquery
+> Uma pequena apresentação trazendo as seguintes seções:
+- Sobre mim;
+- Meus serviços;
+- Minhas habilidades;
+- Meus projetos;
+- Contato;
 
-Resultado: https://kain-prog.github.io/kain/
+**OBS** - Na seção de contato se encontra um formulário ativo, onde foi feito tratativas de erros mostrando no proprio formulário o resultado e caso o preenchimento seja válido, os dados serão enviados para um banco de dados onde consigo ler em outro projeto.
 
+### Tecnologias Usadas:
+
+- <strong>NodeJS</strong>;
+- <strong>Express</strong>;
+- <strong>EJS</strong>;
+- <strong>MongoDB (ATLAS)</strong>;
+
+Resultado: https://kain-portfolio.herokuapp.com/
 
 ## 🤝 Colaboradores
 
@@ -24,7 +35,7 @@ Pessoa que contribuiu para este projeto:
 <table>
   <tr>
     <td align="center">
-        <img src="./src/images/kain perfil 2 branco azul.jpeg" width="100px;" alt="Foto Kain"/><br>
+        <img src="./src/public/images/kain perfil 2 branco azul.jpeg" width="100px;" alt="Foto Kain"/><br>
         <sub>
           <b>Matheus Santos</b>
         </sub>
