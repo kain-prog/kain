@@ -1,5 +1,5 @@
 ### My Portfólio ↓
-> Link on air: https://kain-portfolio.herokuapp.com/
+> Link on air: <a href="https://kain-portfolio.herokuapp.com">https://kain-portfolio.herokuapp.com/ </a>
 
 
 <img src="./src/public/images/portHOME.PNG" alt="portfólio"> <img src="./src/public/images/portABOUT.PNG" alt="portfólio">
@@ -26,7 +26,7 @@
 - <strong>EJS</strong>;
 - <strong>MongoDB (ATLAS)</strong>;
 
-Resultado: https://kain-portfolio.herokuapp.com/
+Resultado: <a href="https://kain-portfolio.herokuapp.com">https://kain-portfolio.herokuapp.com</a>
 
 ## 🤝 Colaboradores
 
@@ -35,6 +35,7 @@ Pessoa que contribuiu para este projeto:
 <table>
   <tr>
     <td align="center">
+      <a>
         <img src="./src/public/images/kain perfil 2 branco azul.jpeg" width="100px;" alt="Foto Kain"/><br>
         <sub>
           <b>Matheus Santos</b>
