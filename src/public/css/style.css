@@ -1054,12 +1054,12 @@ section .title::after{
     }
     
     .about .about-content .left img{
-        height: 325px;
-        width: 325px;
+        height: 320px;
+        width: 320px;
     }
 }    
 
-@media (max-width: 318px){
+@media (max-width: 325px){
 
     .home .btn-cv a{
         font-size: 12px;
@@ -1071,7 +1071,7 @@ section .title::after{
     }
     
     .about .about-content .left img{
-        height: 280px;
-        width: 280px;
+        height: 250px;
+        width: 250px;
     }
 }
