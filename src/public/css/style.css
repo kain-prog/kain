@@ -1074,4 +1074,8 @@ section .title::after{
         height: 250px;
         width: 250px;
     }
+    
+    section .title::after {
+        padding: 4px;
+    }
 }
