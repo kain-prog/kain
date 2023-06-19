@@ -1076,6 +1076,6 @@ section .title::after{
     }
     
     section .title::after {
-        padding: 4px;
+        font-size: 12px;
     }
 }
