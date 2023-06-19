@@ -866,10 +866,6 @@ section .title::after{
     .about .about-content .left img{
         height: 350px;
         width: 350px;
-        object-fit: cover;
-        border-radius: 6px;
-        border: 1px solid #49FA02;
-        box-shadow: 15px 11px 25px black;
     }
 }
 
@@ -1055,6 +1051,11 @@ section .title::after{
 
     .home .btn-cv a i{
         font-size: 28px;
+    }
+    
+    .about .about-content .left img{
+        height: 325px;
+        width: 325px;
     }
 }    
 
